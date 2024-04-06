@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box1">
+            <h1 class="fbhead">facebook</h1>
+            <div class="p">
+                Facebook helps you connect and share
+                <br>with the people in your life.
+            </div>
+        </div>
+        <div class="box2">
+            <form class="loginForm">
+                <div class="emailDiv">
+                <input id="emailOrPhone" placeholder="Email adress or phone number" class="email" type="email">
+                </div>
+                <div class="passwordDiv">
+                <input id="password" placeholder="Password" class="password" type="password">
+                </div>
+                <div class="LoginDiv">
+                <button onclick="Data()" class="login">Log in</button>
+                </div>
+                <div class="fpDiv">
+                    <a class="url" href="dummy">Forgotten password?</a>
+                </div>
+                <br>
+                <div class="signupDiv">
+                    <a href="http://127.0.0.1:5500/signup/signup.html">
+                        <button class="signup" >Create an account</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
